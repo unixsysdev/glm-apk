@@ -1,0 +1,50 @@
+# Flutter
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+build/
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Android
+**/android/**/gradle-wrapper.jar
+**/android/.gradle
+**/android/captures/
+**/android/gradlew
+**/android/gradlew.bat
+**/android/local.properties
+**/android/**/GeneratedPluginRegistrant.java
+
+# iOS / macOS (not used, but just in case)
+**/ios/**/*.symlink
+**/ios/Pods/
+**/macos/Pods/
+
+# Secrets
+.env
+keys.txt
+google-services.json
+**/android/app/google-services.json
+GoogleService-Info.plist
+
+# SDKs (local installs)
+.flutter-sdk/
+.android-sdk/
+
+# Dependencies
+functions/node_modules/
+
+# Hive
+*.hive
+
+# Misc
+*.log
+.DS_Store
+pubspec.lock
+.gemini/
+SPEC.md
+kets.txt
+README.md
